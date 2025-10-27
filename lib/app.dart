@@ -1,14 +1,14 @@
+import 'package:desafio_tecnico/presentation/details/view/details_page.dart';
+import 'package:desafio_tecnico/presentation/details/view_model/details_view_model.dart';
+import 'package:desafio_tecnico/presentation/home/view/home_page.dart';
+import 'package:desafio_tecnico/presentation/home/view_model/home_view_model.dart';
+import 'package:desafio_tecnico/presentation/persisted/view/persisted_users_page.dart';
+import 'package:desafio_tecnico/presentation/persisted/view_model/persisted_users_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'domain/models/user.dart';
 import 'domain/repositories/user_repository.dart';
-import 'presentation/details/view/details_page.dart';
-import 'presentation/details/view_model/details_view_model.dart';
-import 'presentation/home/view/home_page.dart';
-import 'presentation/home/view_model/home_view_model.dart';
-import 'presentation/persisted/view/persisted_users_page.dart';
-import 'presentation/persisted/view_model/persisted_users_view_model.dart';
 
 class AppRoutes {
   AppRoutes._();
@@ -70,7 +70,7 @@ class DesafioApp extends StatelessWidget {
           ),
         );
       default:
-        return _errorRoute('Rota não encontrada');
+        return _errorRoute('Rota não encontrada.');
     }
   }
 
