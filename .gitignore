@@ -1,0 +1,35 @@
+# Flutter/Dart
+.dart_tool/
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# iOS
+**/Pods/
+**/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.generated/
+
+# Android
+android/.gradle/
+android/app/*.iml
+android/local.properties
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Misc
+.DS_Store
+*.iml
+devtools_options.yaml
