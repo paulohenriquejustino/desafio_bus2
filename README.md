@@ -49,19 +49,5 @@ flutter run
 flutter test
 ```
 
-O projeto inclui um teste widget com um repositório fake para garantir renderização básica da Home.
 
-## Considerações de Git
-- A pasta `build/` está ignorada em `.gitignore`. Se gerar artefatos pesados, limpe-os com:
-  ```bash
-  git rm -r --cached build/
-  ```
-- Crie commits pequenos e descritivos.
 
-## Próximas Melhorias Sugeridas
-1. Adicionar testes unitários para ViewModels e Repository.
-2. Introduzir um cache mais robusto (ex.: `hive`) caso haja requisito offline mais amplo.
-3. Implementar temas claro/escuro configuráveis pelo usuário.
-
----
-Projeto desenvolvido por **Paulo Henrique de Paiva Barbosa Justino**. Sinta-se à vontade para abrir _issues_ ou contribuir via _pull requests_. Obrigado por conferir!***
